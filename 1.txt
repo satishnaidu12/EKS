@@ -72,3 +72,27 @@ of PODS using differnt types of Services available in K8s:
 ClusterIP
 NodePort
 LoadBalancer
+
+
+Kubernetes-ReplicaSet
+* A ReplicaSet's purpose is to maintain a
+  stable set of replica Pods running at
+  any given time.
+* If our application crashes (any pod dies),
+  replicaset will recreate the pod immediately
+  to ensure at any given time.
+* LOAD BALANCING.
+* To avoid overloading of traffic to single pod
+  we can use load balancing.
+* Kubernetes provides pod load balancing out of the
+  pods which are part of a ReplicaSet.
+* Labels & Selectors are the key items which ties all
+  3 together (Pod, ReplicaSet & Service), we will know
+  in detail when we are writing YAMLmanifests for these
+  objects
+  * Scaling
+* When for the number of existing pods, Kubernetes
+  enables us to easily scale up our application,
+  adding additional pods as needed.
+* This is goig to be sealess and super quick.
+  
