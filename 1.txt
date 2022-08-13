@@ -3,3 +3,16 @@ Q. AWS EKS Core Objects.
 2. Worker Nodes & Node Groups.
 3. Fargate Profiles (Serverless)
 4. VPC.
+
+Q.K8S Master components
+1. Kube Controller Manager.
+2. Kube-apiserver
+3. etcd
+4. Kube-scheduler
+5. Container Runtime(Docker)
+
+
+Q. K8s Worker Node.
+1. Kubelet
+2. Kube-Proxy
+3. Container Runtime(Docker)
