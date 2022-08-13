@@ -105,4 +105,21 @@ Kubernetes-Deployment
 * Deployment Status.
 * Clean up Policy.
 * Canary Deployments.
+
+Kubernetes-Services
+* ClusterIP:
+  Used for communication between applications inside K8s cluster
+  (Frontened application accessing backend application)
+*NodePort:
+  Used for accessing applications outside of K8s cluster using Worker
+  Node Ports (Example: Accessing Frontened application on browser)
+* LoadBalancer:
+  Primarily for cloud Providers to intergrate with their Load Balancer
+  services (Example: Aws ELastic Load Balancer)
+* Ingress:
+  Ingress is an adavanced load balancer which provides Context path
+  based routing, SSL, SSL redirect and many more(AWS ALB)
+* ExternalName:
+  To access externally hosted apps in K8s cluster (Example: Access AWS
+  RDS Database endpoint by application present inside K8s cluster)
   
