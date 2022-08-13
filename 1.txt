@@ -52,3 +52,16 @@ Q. K8s Worker Node.
 3. Container Runtime(Docker)
 	Container Runtime is the underlying software where we run all these kubernetes components.
 	Types of container are Docker, rkt, container-d etc. 
+
+K8s Fundamentals:
+1. Pod: A Pod is a single instance of an application.
+        A POD is the smallest object, that you can create in K8s.
+2. ReplicaSet: A ReplicaSet will maintain a stable set of replica Pods running at any given time.
+               In short, it is often used to guarantee the availability of a specifies number of identical Pods.
+3. Deployment: A Deployment runs multiple replicas of your application and
+               automatically replaces any instances that faile or become
+               unresponsive. Rollout & rollback chnages to applications.
+               Deployments are well-suited for stateless applications.
+4. Services:   A Service is an abstraction for pods, providing a stable, so called VIP address.
+               In simple terms, service sits infront of a POD and acts as a 
+               load balancer.
