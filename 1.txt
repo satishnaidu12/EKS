@@ -43,6 +43,8 @@ Q.K8S Master components
 
 Q. K8s Worker Node.
 1. Kubelet
+	Kubelet is the agent that runs on every node in the cluster.
+	This agent is responsible for making sure that containers are running in Pos on a node.
 2. Kube-Proxy
 3. Container Runtime(Docker)
 	Container Runtime is the underlying software where we run all these kubernetes components.
