@@ -1,0 +1,5 @@
+Q. AWS EKS Core Objects.
+1. EKS Control Plane.
+2. Worker Nodes & Node Groups.
+3. Fargate Profiles (Serverless)
+4. VPC.
