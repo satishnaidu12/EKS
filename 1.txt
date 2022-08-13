@@ -65,3 +65,10 @@ K8s Fundamentals:
 4. Services:   A Service is an abstraction for pods, providing a stable, so called VIP address.
                In simple terms, service sits infront of a POD and acts as a 
                load balancer.
+	       
+K8s- Service-NodePort
+We can expose an application running on a set
+of PODS using differnt types of Services available in K8s:
+ClusterIP
+NodePort
+LoadBalancer
