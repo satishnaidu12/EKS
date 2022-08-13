@@ -95,4 +95,14 @@ Kubernetes-ReplicaSet
   enables us to easily scale up our application,
   adding additional pods as needed.
 * This is goig to be sealess and super quick.
+
+Kubernetes-Deployment
+* Create a deployment to rollout a ReplicaSet.
+* Updating the Deployment
+* Rolling Back a Deployment
+* Scaling a Deployment.
+* Pausing and Resuming a Deployment.
+* Deployment Status.
+* Clean up Policy.
+* Canary Deployments.
   
