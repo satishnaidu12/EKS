@@ -45,3 +45,5 @@ Q. K8s Worker Node.
 1. Kubelet
 2. Kube-Proxy
 3. Container Runtime(Docker)
+	Container Runtime is the underlying software where we run all these kubernetes components.
+	Types of container are Docker, rkt, container-d etc. 
