@@ -123,3 +123,17 @@ Kubernetes-Services
   To access externally hosted apps in K8s cluster (Example: Access AWS
   RDS Database endpoint by application present inside K8s cluster)
   
+Types Kubernetes-Probes?
+* Liveness Probe: Kubelet uses liveness probes to know when to restart a container..
+			Liveness probes could catch a deadlock, where an application
+                  is running, but unable to make progress and restarting
+                  container helps in such state.
+*Readiness Probe: Kubelet uses readiness probes to know when a container
+                  is ready to accept traffic.
+                  When a Pod is not ready, it is removed from service load balancers based on this
+                  readiness probe signal.
+* Startup Probe: Kubelet uses startup probes to know when a container application has started.
+                 Firstly this probe disables liveness & readiness checks until it successds
+                 ensuring those pods don't interfere with app startup.
+                 This can be used to adopt liveness checks on slow starting containers, avoiding them getting killed by the kubelet before they are up and running.
+  
