@@ -136,4 +136,12 @@ Types Kubernetes-Probes?
                  Firstly this probe disables liveness & readiness checks until it successds
                  ensuring those pods don't interfere with app startup.
                  This can be used to adopt liveness checks on slow starting containers, avoiding them getting killed by the kubelet before they are up and running.
+EKS Storage EBS CSI Driver?
+* Drawbacks of EBS CSI for MySQL DB.
+* COmplex setup to achieve HA.
+* COmplex Multi-Az Support for EBS.
+* COmplex Master-Master MySQL Setup.
+* COmplex Master-Slave MySQL Setup.
+* No Automatic Backup & Recovery.
+* No Auto-Upgrade MySQL.
   
